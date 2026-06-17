@@ -1,1 +1,1 @@
-yes
+Sistem POS untuk bisnis ternak telur
