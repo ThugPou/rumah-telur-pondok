@@ -22,8 +22,7 @@ CREATE TABLE "penjualan" (
   "id_pembeli" integer,
   "id_produk" integer,
   "total_harga" integer NOT NULL,
-  "tanggal_penjualan" datetime NOT NULL,
-  "jam_penjualan" timestamp NOT NULL
+  "waktu_penjualan" datetime NOT NULL
 );
 
 CREATE TABLE "item_penjualan" (
@@ -36,11 +35,10 @@ CREATE TABLE "item_penjualan" (
 );
 
 CREATE TABLE "pengeluaran" (
-  "id_pegeluaran" integer UNIQUE,
+  "id_pengeluaran" integer UNIQUE,
   "jenis_pengeluaran" varchar(25),
   "jumlah_pengeluaran" integer,
-  "tanggal_pengeluaran" datetime,
-  "jam_pengeluaran" timestamp,
+  "waktu_pengeluaran" datetime,
   "foto_struk" image
 );
 
